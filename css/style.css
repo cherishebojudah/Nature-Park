@@ -15,10 +15,25 @@ a {
 }
 
 .img-no-rpt {
-    background-image: url(/img/wildlife.jpg);
+    background-image: url(../img/wildlife.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 100%;
+}
+
+.hover-class:hover {
+    font-size: 22.5px;
+    color: rgb(37, 33, 34);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(37, 33, 34);
+    color: #ffffff;
+}
+
+.no-outline {
+    outline: none;
 }
 
 /* canvas */
